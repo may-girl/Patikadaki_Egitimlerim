@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(149, 146, 165);/* Arka plan rengi */
+    text-align: center; /* Yazıların ortalanması */
+  }
+  header {
+    background-color: rgb(149, 146, 165); /* Arka plan rengi */
+    padding: 10px 0; /* Üst ve alt boşluklar */
+  }
+  
+  nav ul {
+    margin: 0; /* Liste içi boşluk kaldırma */
+    padding: 0; /* Liste içi boşluk kaldırma */
+    list-style-type: none; /* Sıralama işaretlerini kaldırma */
+  }
+  
+  nav ul li {
+    display: inline-block; /* Öğelerin yan yana gözükmesi */
+    margin-right: 50px; /* Öğeler arası sağ boşluk */
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 10px;
+    background-color: #55055f; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #afadad; /* Üzerine gelindiğinde arka plan rengi */
+  }
+  
+  h1, h2, h3 {
+    color: #55055f; /* Başlık renkleri */
+  }
+  
+  .list-container {
+    display: inline-block; /* Başlık ve liste yan yana gözüksün */
+    margin: 10px; /* Başlık ve liste arasında boşluk bırakma */
+  }
+  
+  img {
+    display: block; /* Resmin yan yana gözükmemesi için */
+    margin: 0 auto; /* Resmin ortalanması */
+  }
+  
+  ul {
+    list-style-type: none; /* Sıralama işaretlerini kaldırma */
+    padding: 0; /* Liste içi boşluk kaldırma */
+  }
+  
+  li {
+    list-style-position: inside;
+    margin-bottom: 10px; /* Liste öğeleri arasında boşluk bırakma */
+  }
+  

@@ -1,0 +1,30 @@
+.sayfa{
+  margin:0 auto;
+  text-align:center;
+  width:700px;
+}
+.sol{
+  background-color: rgb(126,229,218);
+  width: 180px;
+}
+.orta{
+  background-color: rgb(112,204,194);
+  width: 150px;
+}
+.sağ{
+  background-color: rgb(98,179,170);
+  width: 270px;
+}
+.box{
+  height: 100px;
+  padding: 5px;
+  margin-right: 5px;
+  float:left;
+}
+div ul{
+  margin: 0;
+  padding: 0;
+}
+div ul li{
+  list-style-type: none;
+}

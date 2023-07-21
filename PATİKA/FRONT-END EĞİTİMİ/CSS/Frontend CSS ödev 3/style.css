@@ -1,0 +1,123 @@
+/***************************NAVBAR***************************/
+.header {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 0;
+}
+
+.header li {
+  margin: 8px;
+}
+
+.header .pic {
+  margin: 8px;
+}
+
+.header .pic img {
+  margin-right: 1px;
+  width: 40px;
+}
+
+.header .headerli:nth-child(1) {
+  order: 4;
+}
+
+.header .headerli:nth-child(2) {
+  order: 3;
+}
+
+.header .headerli:nth-child(3) {
+  order: 2;
+}
+
+.header .headerli:nth-child(4) {
+  order: 1;
+}
+/****************************LOGO***************************/
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*************************** Kenarlıksız arama alanı***************************/
+.search-area {
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-end; /* Sağ tarafa hizala */
+  margin-top: 20px;
+}
+
+.input-area {
+  position: relative;
+}
+
+.input {
+  width: 480px;
+  border: none;
+  outline: none;
+  font-family: Arial;
+  font-size: 14px;
+  color: #5f6368;
+  padding: 8px;
+}
+
+/***************************Arama simgesi***************************/
+.search-img {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+/**************************** Buttonlar ****************************/
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.googlesearch,
+.feelinglucky {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 0 16px;
+  height: 36px;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  font-family: Arial;
+  font-size: 14px;
+  color: #5f6368;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+/**************************** Footer ****************************/
+.footer {
+ 
+  list-style: none;
+  background-color: #f2f2f2;
+  padding: 10px;
+  
+}
+
+.footerli {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footerli:last-child {
+  margin-right: 0;
+}
+
+.footerli a {
+  color: #5f6368;
+  text-decoration: none;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
